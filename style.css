@@ -26,7 +26,6 @@
     align-items: center;
     width: 581px;
     height: 615px;
-
 }
 .boxibox{
     background-color: #D9D9D9;
@@ -34,21 +33,23 @@
     height: 100%;
     overflow: hidden;
 }
-.flex-grejsimojs{
+.flex-container{
     display: flex;
     flex-wrap: nowrap;
     width: 581px;
     height: 100px;
     margin: 20px;
+    font-size: 30px;
+    justify-content: center;
 }
-.flex-grejsimojs img{
+.flex-container img{
 margin-right: 5px;
 }
-.flex-grejsimojs p{
+.flex-container p{
     white-space: nowrap;
 }
-.flex-grejsimojs strong:first-child{
-    margin-right: 300px;
+.flex-container strong:first-child{
+    margin-right: 50px;
 }
 #beskrivning{
     margin: 20px;
@@ -78,10 +79,18 @@ margin-right: 5px;
 }
 ol li{
     margin: 5px;
-    font-size: 23px;
+    font-size: 28px;
+}
+.ingredienslista{
+    margin: 15px;
+}
+.ingredienslista img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 h1{
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
