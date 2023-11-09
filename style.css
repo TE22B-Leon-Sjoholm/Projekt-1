@@ -50,6 +50,15 @@ margin-right: 5px;
 .flex-grejsimojs strong:first-child{
     margin-right: 300px;
 }
+#beskrivning{
+    margin: 20px;
+    font-size: 25px;
+}
+#betyg{
+    margin: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
 #kladdkaka{
     width: 100%;
     height: 100%;
